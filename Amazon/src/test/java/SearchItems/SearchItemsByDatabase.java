@@ -14,7 +14,7 @@ import java.util.List;
  */
 public class SearchItemsByDatabase extends CommonMethods {
 
-    //@Test
+    @Test
     public void searchUsingDB()throws Exception,InterruptedException{
         //initialize Search page factory
         SearchItems search = PageFactory.initElements(driver, SearchItems.class);

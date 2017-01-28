@@ -19,9 +19,9 @@ public class SearchItemsByDataProvider extends CommonAPI {
     @DataProvider(name = "items")
     public Object[][] createData(){
         return new Object[][]{
-                {"Books"} ,
-                {"Baby"} ,
-                {"Computer"},
+                {"Seleniun Books"} ,
+                {"MacBook"} ,
+                {"Windows Tablet"},
         };
     }
 

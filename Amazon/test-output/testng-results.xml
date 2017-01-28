@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
   <reporter-output>
   </reporter-output>
-  <suite name="Amazon E-Commerce" duration-ms="21233" started-at="2017-01-28T14:05:46Z" finished-at="2017-01-28T14:06:07Z">
+  <suite name="Amazon E-Commerce" duration-ms="332052" started-at="2017-01-28T15:37:43Z" finished-at="2017-01-28T15:43:15Z">
     <groups>
     </groups>
-    <test name="Amazon Search" duration-ms="21233" started-at="2017-01-28T14:05:46Z" finished-at="2017-01-28T14:06:07Z">
-      <class name="SearchItems.MouseHover">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.MouseHover@3d24753a]" name="setUp" is-config="true" duration-ms="7210" started-at="2017-01-28T09:05:46Z" finished-at="2017-01-28T09:05:53Z">
+    <test name="Amazon Search" duration-ms="332052" started-at="2017-01-28T15:37:43Z" finished-at="2017-01-28T15:43:15Z">
+      <class name="SearchItems.DropDownMenuSearch">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.DropDownMenuSearch@60f82f98]" name="setUp" is-config="true" duration-ms="4465" started-at="2017-01-28T10:39:15Z" finished-at="2017-01-28T10:39:19Z">
           <params>
             <param index="0">
               <value>
@@ -48,15 +48,836 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="MouseHover()[pri:0, instance:SearchItems.MouseHover@3d24753a]" name="MouseHover" duration-ms="13794" started-at="2017-01-28T09:05:53Z" finished-at="2017-01-28T09:06:07Z">
+        <test-method status="PASS" signature="dropDownMenu()[pri:0, instance:SearchItems.DropDownMenuSearch@60f82f98]" name="dropDownMenu" duration-ms="125837" started-at="2017-01-28T10:39:19Z" finished-at="2017-01-28T10:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDownMenu -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.DropDownMenuSearch@60f82f98]" name="tearDown" is-config="true" duration-ms="188" started-at="2017-01-28T10:41:25Z" finished-at="2017-01-28T10:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchItems.DropDownMenuSearch -->
+      <class name="LogIn.LogInEnv">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LogIn.LogInEnv@edf4efb]" name="setUp" is-config="true" duration-ms="3896" started-at="2017-01-28T10:42:34Z" finished-at="2017-01-28T10:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginCorrectCredentials()[pri:1, instance:LogIn.LogInEnv@edf4efb]" name="testLoginCorrectCredentials" duration-ms="5492" started-at="2017-01-28T10:42:38Z" finished-at="2017-01-28T10:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginCorrectCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LogIn.LogInEnv@edf4efb]" name="tearDown" is-config="true" duration-ms="142" started-at="2017-01-28T10:42:43Z" finished-at="2017-01-28T10:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LogIn.LogInEnv@edf4efb]" name="setUp" is-config="true" duration-ms="3890" started-at="2017-01-28T10:42:43Z" finished-at="2017-01-28T10:42:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginIncorrectCredentials()[pri:2, instance:LogIn.LogInEnv@edf4efb]" name="testLoginIncorrectCredentials" duration-ms="2977" started-at="2017-01-28T10:42:47Z" finished-at="2017-01-28T10:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginIncorrectCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LogIn.LogInEnv@edf4efb]" name="tearDown" is-config="true" duration-ms="135" started-at="2017-01-28T10:42:50Z" finished-at="2017-01-28T10:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LogIn.LogInEnv@edf4efb]" name="setUp" is-config="true" duration-ms="3846" started-at="2017-01-28T10:42:50Z" finished-at="2017-01-28T10:42:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginBlankPassword()[pri:3, instance:LogIn.LogInEnv@edf4efb]" name="testLoginBlankPassword" duration-ms="12559" started-at="2017-01-28T10:42:54Z" finished-at="2017-01-28T10:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginBlankPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LogIn.LogInEnv@edf4efb]" name="tearDown" is-config="true" duration-ms="143" started-at="2017-01-28T10:43:07Z" finished-at="2017-01-28T10:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LogIn.LogInEnv@edf4efb]" name="setUp" is-config="true" duration-ms="4327" started-at="2017-01-28T10:43:07Z" finished-at="2017-01-28T10:43:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginIncorrectPassword()[pri:4, instance:LogIn.LogInEnv@edf4efb]" name="testLoginIncorrectPassword" duration-ms="3209" started-at="2017-01-28T10:43:11Z" finished-at="2017-01-28T10:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginIncorrectPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LogIn.LogInEnv@edf4efb]" name="tearDown" is-config="true" duration-ms="133" started-at="2017-01-28T10:43:15Z" finished-at="2017-01-28T10:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LogIn.LogInEnv -->
+      <class name="SearchItems.SearchItemsByDataProvider">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@6442b0a6]" name="setUp" is-config="true" duration-ms="3962" started-at="2017-01-28T10:38:43Z" finished-at="2017-01-28T10:38:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUsingDataProvider(java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@6442b0a6]" name="searchUsingDataProvider" duration-ms="7554" started-at="2017-01-28T10:38:47Z" data-provider="items" finished-at="2017-01-28T10:38:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seleniun Books]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUsingDataProvider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDataProvider@6442b0a6]" name="tearDown" is-config="true" duration-ms="143" started-at="2017-01-28T10:38:55Z" finished-at="2017-01-28T10:38:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@6442b0a6]" name="setUp" is-config="true" duration-ms="3656" started-at="2017-01-28T10:38:55Z" finished-at="2017-01-28T10:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUsingDataProvider(java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@6442b0a6]" name="searchUsingDataProvider" duration-ms="5604" started-at="2017-01-28T10:38:59Z" data-provider="items" finished-at="2017-01-28T10:39:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUsingDataProvider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDataProvider@6442b0a6]" name="tearDown" is-config="true" duration-ms="139" started-at="2017-01-28T10:39:04Z" finished-at="2017-01-28T10:39:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@6442b0a6]" name="setUp" is-config="true" duration-ms="4194" started-at="2017-01-28T10:39:04Z" finished-at="2017-01-28T10:39:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUsingDataProvider(java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDataProvider@6442b0a6]" name="searchUsingDataProvider" duration-ms="6097" started-at="2017-01-28T10:39:09Z" data-provider="items" finished-at="2017-01-28T10:39:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows Tablet]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUsingDataProvider -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDataProvider@6442b0a6]" name="tearDown" is-config="true" duration-ms="142" started-at="2017-01-28T10:39:15Z" finished-at="2017-01-28T10:39:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchItems.SearchItemsByDataProvider -->
+      <class name="SearchItems.SearchItemsByExcel">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByExcel@67b64c45]" name="setUp" is-config="true" duration-ms="5267" started-at="2017-01-28T10:37:43Z" finished-at="2017-01-28T10:37:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:SearchItems.SearchItemsByExcel@67b64c45]" name="search" duration-ms="22252" started-at="2017-01-28T10:37:48Z" finished-at="2017-01-28T10:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByExcel@67b64c45]" name="tearDown" is-config="true" duration-ms="149" started-at="2017-01-28T10:38:10Z" finished-at="2017-01-28T10:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchItems.SearchItemsByExcel -->
+      <class name="CheckCart.CheckCart">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:CheckCart.CheckCart@566776ad]" name="setUp" is-config="true" duration-ms="4154" started-at="2017-01-28T10:42:17Z" finished-at="2017-01-28T10:42:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestCart()[pri:0, instance:CheckCart.CheckCart@566776ad]" name="TestCart" duration-ms="12284" started-at="2017-01-28T10:42:22Z" finished-at="2017-01-28T10:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CheckCart.CheckCart@566776ad]" name="tearDown" is-config="true" duration-ms="140" started-at="2017-01-28T10:42:34Z" finished-at="2017-01-28T10:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CheckCart.CheckCart -->
+      <class name="SearchItems.MouseHover">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.MouseHover@2f7a2457]" name="setUp" is-config="true" duration-ms="3999" started-at="2017-01-28T10:42:03Z" finished-at="2017-01-28T10:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="MouseHover()[pri:0, instance:SearchItems.MouseHover@2f7a2457]" name="MouseHover" duration-ms="9861" started-at="2017-01-28T10:42:07Z" finished-at="2017-01-28T10:42:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MouseHover -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.MouseHover@3d24753a]" name="tearDown" is-config="true" duration-ms="194" started-at="2017-01-28T09:06:07Z" finished-at="2017-01-28T09:06:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.MouseHover@2f7a2457]" name="tearDown" is-config="true" duration-ms="162" started-at="2017-01-28T10:42:17Z" finished-at="2017-01-28T10:42:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SearchItems.MouseHover -->
+      <class name="UITabs.Tabs">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:UITabs.Tabs@7f690630]" name="setUp" is-config="true" duration-ms="4116" started-at="2017-01-28T10:41:33Z" finished-at="2017-01-28T10:41:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestCoupon()[pri:0, instance:UITabs.Tabs@7f690630]" name="TestCoupon" duration-ms="4317" started-at="2017-01-28T10:41:37Z" finished-at="2017-01-28T10:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCoupon -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UITabs.Tabs@7f690630]" name="tearDown" is-config="true" duration-ms="88" started-at="2017-01-28T10:41:41Z" finished-at="2017-01-28T10:41:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:UITabs.Tabs@7f690630]" name="setUp" is-config="true" duration-ms="3971" started-at="2017-01-28T10:41:41Z" finished-at="2017-01-28T10:41:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestWatchedDeals()[pri:0, instance:UITabs.Tabs@7f690630]" name="TestWatchedDeals" duration-ms="5837" started-at="2017-01-28T10:41:45Z" finished-at="2017-01-28T10:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWatchedDeals -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UITabs.Tabs@7f690630]" name="tearDown" is-config="true" duration-ms="142" started-at="2017-01-28T10:41:51Z" finished-at="2017-01-28T10:41:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:UITabs.Tabs@7f690630]" name="setUp" is-config="true" duration-ms="4214" started-at="2017-01-28T10:41:51Z" finished-at="2017-01-28T10:41:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Testdeals()[pri:0, instance:UITabs.Tabs@7f690630]" name="Testdeals" duration-ms="7584" started-at="2017-01-28T10:41:56Z" finished-at="2017-01-28T10:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testdeals -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:UITabs.Tabs@7f690630]" name="tearDown" is-config="true" duration-ms="139" started-at="2017-01-28T10:42:03Z" finished-at="2017-01-28T10:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- UITabs.Tabs -->
+      <class name="LogIn.LogInPage">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LogIn.LogInPage@35f983a6]" name="setUp" is-config="true" duration-ms="4040" started-at="2017-01-28T10:41:25Z" finished-at="2017-01-28T10:41:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LogIn()[pri:0, instance:LogIn.LogInPage@35f983a6]" name="LogIn" duration-ms="3426" started-at="2017-01-28T10:41:29Z" finished-at="2017-01-28T10:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:LogIn.LogInPage@35f983a6]" name="tearDown" is-config="true" duration-ms="88" started-at="2017-01-28T10:41:33Z" finished-at="2017-01-28T10:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- LogIn.LogInPage -->
+      <class name="SearchItems.SearchItemsByDatabase">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDatabase@4411d970]" name="setUp" is-config="true" duration-ms="3893" started-at="2017-01-28T10:38:10Z" finished-at="2017-01-28T10:38:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchUsingDB()[pri:0, instance:SearchItems.SearchItemsByDatabase@4411d970]" name="searchUsingDB" duration-ms="13499" started-at="2017-01-28T10:38:14Z" finished-at="2017-01-28T10:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUsingDB -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDatabase@4411d970]" name="tearDown" is-config="true" duration-ms="135" started-at="2017-01-28T10:38:28Z" finished-at="2017-01-28T10:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.SearchItemsByDatabase@4411d970]" name="setUp" is-config="true" duration-ms="3855" started-at="2017-01-28T10:38:28Z" finished-at="2017-01-28T10:38:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sachin_0320]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[49.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testingSearchBarWithDB()[pri:0, instance:SearchItems.SearchItemsByDatabase@4411d970]" name="testingSearchBarWithDB" duration-ms="11529" started-at="2017-01-28T10:38:32Z" finished-at="2017-01-28T10:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testingSearchBarWithDB -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.SearchItemsByDatabase@4411d970]" name="tearDown" is-config="true" duration-ms="139" started-at="2017-01-28T10:38:43Z" finished-at="2017-01-28T10:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SearchItems.SearchItemsByDatabase -->
     </test> <!-- Amazon Search -->
   </suite> <!-- Amazon E-Commerce -->
 </testng-results>
