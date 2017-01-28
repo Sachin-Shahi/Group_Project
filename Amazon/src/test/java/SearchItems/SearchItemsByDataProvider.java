@@ -22,8 +22,6 @@ public class SearchItemsByDataProvider extends CommonAPI {
                 {"Books"} ,
                 {"Baby"} ,
                 {"Computer"},
-
-
         };
     }
 

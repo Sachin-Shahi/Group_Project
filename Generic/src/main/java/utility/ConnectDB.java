@@ -28,7 +28,7 @@ public class ConnectDB {
 
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("src/MySql.properties");
+        InputStream ism = new FileInputStream("/Users/DAGR8DON/Desktop/Group_Project/Generic/src/MySql.properties");
         prop.load(ism);
         ism.close();
         return prop;
@@ -87,7 +87,7 @@ public class ConnectDB {
             statement = connect.createStatement();
             // Result set get the result of the SQL query
             resultSet = statement
-                    .executeQuery("select * from DataToBeSearched");
+                    .executeQuery("select * from SearchItemsForEbay");
             list = getResultSetData(resultSet);
         } catch (Exception e) {
             throw e;
@@ -117,7 +117,7 @@ public class ConnectDB {
     private List<String> getResultSetData(ResultSet resultSet) throws SQLException {
         List<String> dataList = new ArrayList<String>();
         while(resultSet.next()){
-            String itemName = resultSet.getString("item_name");
+            String itemName = resultSet.getString("searchitems");
             dataList.add(itemName);
         }
         return dataList;

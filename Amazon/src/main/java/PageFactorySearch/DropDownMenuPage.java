@@ -18,7 +18,7 @@ public class DropDownMenuPage extends CommonAPI{
     }
 
     public void typeOnInputSearch(List<String> data)throws InterruptedException{
-        for(int i=0; i<5; i++) {
+        for(int i=0; i<data.size(); i++) {
             typeByCss("#twotabsearchtextbox", data.get(i));
             input();
             sleepFor(2);

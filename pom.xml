@@ -12,7 +12,6 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>Cnn</module>
-        <module>Ebay</module>
     </modules>
 
    <dependencyManagement>
@@ -77,7 +76,6 @@
             <id>cnn-app</id>
             <modules>
                 <module>Generic</module>
-                <module>Ebay</module>
             </modules>
         </profile>
         <profile>
@@ -89,7 +87,6 @@
                 <module>Generic</module>
                 <module>Amazon</module>
                 <module>Cnn</module>
-                <module>Ebay</module>
             </modules>
         </profile>
     </profiles>

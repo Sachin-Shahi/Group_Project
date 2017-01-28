@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="Cnn" />
-        <module name="Ebay" />
         <module name="Generic" />
       </profile>
     </annotationProcessing>

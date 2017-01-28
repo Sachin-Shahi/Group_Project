@@ -5,8 +5,8 @@
     <suite name="Amazon E-Commerce" parallel="tests">
 
         <parameter name="useCloudEnv" value="false"/>
-        <parameter name="userName" value="rahmanww"/>
-        <parameter name="accessKey" value="6f132866-de72-43fd-b49a-e6f81d26bfe3"/>
+        <parameter name="userName" value="sachin_0320"/>
+        <parameter name="accessKey" value="b2a3a3ad-20ab-4ad2-afc1-9012939d2931"/>
         <parameter name="os" value="Mac"/>
         <parameter name="browserName" value="chrome"/>
         <parameter name="browserVersion" value="49.0"/>
@@ -15,11 +15,13 @@
         <test name = "Amazon Search">
             <classes>
                 <!--<class name="SearchItems.SearchItemsByExcel"/>-->
-               <!-- <class name="SearchItems.SearchItemsByDatabase"/>
-                <class name="SearchItems.SearchItemsByDataProvider"/>
-                <class name="SearchItems.DropDownMenuSearch"/>-->
+               <!--<class name="SearchItems.SearchItemsByDatabase"/>-->
+                <!--<class name="SearchItems.SearchItemsByDataProvider"/>-->
+                <!--<class name="SearchItems.DropDownMenuSearch"/>-->
                 <!--<class name="LogIn.LogInPage"/>-->
-                <class name="Tabs.Tabs"/>
+                <!--<class name="UITabs.Tabs"/>-->
+                <!--<class name="LogIn.LogInEnv"/>-->
+                <class name="SearchItems.MouseHover"/>
             </classes>
         </test>
 

@@ -36,13 +36,13 @@ public class LogInInfo extends CommonMethods{
             return driver.findElement(submit);
         }
 
-    @FindBy(how = How.XPATH, using = "html/body/div[1]/header/div/div[2]/div[2]/div/a[1]/span[1]")
+    @FindBy(how = How.XPATH, using = ".//*[@id='nav-link-accountList']/span[1]")
     public static WebElement AccountLogInLink;
 
-    @FindBy(how=How.XPATH, using = "html/body/div[1]/div[1]/div[3]/div/div/form/div/div/div/div[1]/input")
+    @FindBy(how=How.XPATH, using = ".//*[@id='ap_email']")
     public static WebElement UserId;
 
-    @FindBy(how=How.XPATH, using = "html/body/div[1]/div[1]/div[3]/div/div/form/div/div/div/div[2]/input")
+    @FindBy(how=How.XPATH, using = ".//*[@id='ap_password']")
     public static WebElement UserPass;
 
     @FindBy(how=How.XPATH, using = ".//*[@id='signInSubmit']")

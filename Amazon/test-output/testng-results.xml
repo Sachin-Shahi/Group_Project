@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Amazon E-Commerce" duration-ms="16791" started-at="2017-01-22T04:19:19Z" finished-at="2017-01-22T04:19:36Z">
+  <suite name="Amazon E-Commerce" duration-ms="21233" started-at="2017-01-28T14:05:46Z" finished-at="2017-01-28T14:06:07Z">
     <groups>
     </groups>
-    <test name="Amazon Search" duration-ms="16791" started-at="2017-01-22T04:19:19Z" finished-at="2017-01-22T04:19:36Z">
-      <class name="Tabs.Tabs">
-        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Tabs.Tabs@7a0ac6e3]" name="setUp" is-config="true" duration-ms="8089" started-at="2017-01-21T23:19:19Z" finished-at="2017-01-21T23:19:27Z">
+    <test name="Amazon Search" duration-ms="21233" started-at="2017-01-28T14:05:46Z" finished-at="2017-01-28T14:06:07Z">
+      <class name="SearchItems.MouseHover">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SearchItems.MouseHover@3d24753a]" name="setUp" is-config="true" duration-ms="7210" started-at="2017-01-28T09:05:46Z" finished-at="2017-01-28T09:05:53Z">
           <params>
             <param index="0">
               <value>
@@ -16,12 +16,12 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[rahmanww]]>
+                <![CDATA[sachin_0320]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[6f132866-de72-43fd-b49a-e6f81d26bfe3]]>
+                <![CDATA[b2a3a3ad-20ab-4ad2-afc1-9012939d2931]]>
               </value>
             </param>
             <param index="3">
@@ -48,15 +48,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testHeader()[pri:0, instance:Tabs.Tabs@7a0ac6e3]" name="testHeader" duration-ms="8529" started-at="2017-01-21T23:19:27Z" finished-at="2017-01-21T23:19:36Z">
+        <test-method status="PASS" signature="MouseHover()[pri:0, instance:SearchItems.MouseHover@3d24753a]" name="MouseHover" duration-ms="13794" started-at="2017-01-28T09:05:53Z" finished-at="2017-01-28T09:06:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHeader -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tabs.Tabs@7a0ac6e3]" name="tearDown" is-config="true" duration-ms="150" started-at="2017-01-21T23:19:36Z" finished-at="2017-01-21T23:19:36Z">
+        </test-method> <!-- MouseHover -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SearchItems.MouseHover@3d24753a]" name="tearDown" is-config="true" duration-ms="194" started-at="2017-01-28T09:06:07Z" finished-at="2017-01-28T09:06:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tabs.Tabs -->
+      </class> <!-- SearchItems.MouseHover -->
     </test> <!-- Amazon Search -->
   </suite> <!-- Amazon E-Commerce -->
 </testng-results>

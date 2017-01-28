@@ -3,20 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon E-Commerce]" parallel="tests">
   <parameter name="useCloudEnv" value="false"/>
   <parameter name="os" value="Mac"/>
-  <parameter name="accessKey" value="6f132866-de72-43fd-b49a-e6f81d26bfe3"/>
+  <parameter name="accessKey" value="b2a3a3ad-20ab-4ad2-afc1-9012939d2931"/>
   <parameter name="browserVersion" value="49.0"/>
   <parameter name="browserName" value="chrome"/>
-  <parameter name="userName" value="rahmanww"/>
+  <parameter name="userName" value="sachin_0320"/>
   <parameter name="url" value="http://www.amazon.com"/>
   <test name="Amazon Search(failed)" parallel="tests">
     <classes>
-      <class name="Tabs.Tabs">
+      <class name="UITabs.Tabs">
         <methods>
-          <include name="testHeaderBarCrimeJustice"/>
           <include name="tearDown"/>
+          <include name="testHeader"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- Tabs.Tabs -->
+      </class> <!-- UITabs.Tabs -->
     </classes>
   </test> <!-- Amazon Search(failed) -->
 </suite> <!-- Failed suite [Amazon E-Commerce] -->
