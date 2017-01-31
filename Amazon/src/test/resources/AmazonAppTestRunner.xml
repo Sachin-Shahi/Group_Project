@@ -14,14 +14,14 @@
 
         <test name = "Amazon Search">
             <classes>
-                <class name="SearchItems.SearchItemsByExcel"/>
-                <class name="SearchItems.SearchItemsByDatabase"/>
-                <class name="SearchItems.SearchItemsByDataProvider"/>
-                <class name="SearchItems.DropDownMenuSearch"/>
-                <class name="LogIn.LogInPage"/>
-                <class name="UITabs.Tabs"/>
-                <class name="LogIn.LogInEnv"/>
-                <class name="SearchItems.MouseHover"/>
+                <!--<class name="SearchItems.SearchItemsByExcel"/>-->
+                <!--<class name="SearchItems.SearchItemsByDatabase"/>-->
+                <!--<class name="SearchItems.SearchItemsByDataProvider"/>-->
+                <!--<class name="SearchItems.DropDownMenuSearch"/>-->
+                <!--<class name="LogIn.LogInPage"/>-->
+                <!--<class name="UITabs.Tabs"/>-->
+                <!--<class name="LogIn.LogInEnv"/>-->
+                <!--<class name="SearchItems.MouseHover"/>-->
                 <class name="CheckCart.CheckCart"/>
             </classes>
         </test>
